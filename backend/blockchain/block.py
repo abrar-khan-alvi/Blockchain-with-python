@@ -60,11 +60,6 @@ class Block:
         """
         Generate the genesis block.
         """
-        # return Block(
-        #     GENESIS_DATA['timestamp'],
-        #     GENESIS_DATA['last_hash'], 
-        #     GENESIS_DATA['hash'],
-        #     GENESIS_DATA['data'])
         return Block(**GENESIS_DATA)
     @staticmethod
     def adjust_difficulty(last_block,new_timestamp):
