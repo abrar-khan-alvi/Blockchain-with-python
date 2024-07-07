@@ -48,3 +48,13 @@ def test_replace_chain_bad_chain(blockchain_three_blocks):
 
     with pytest.raises(Exception, match='The incoming chain is invalid'):
         blockchain.replace_chain(blockchain_three_blocks.chain)
+
+def test_valid_blockchain():
+    blockchain = Blockchain()
+
+    for i in range(3):
+        blockchain.add_block(i)
+    
+    Blockchain.is_valid_chain(blockchain.chain)
+    
+    
