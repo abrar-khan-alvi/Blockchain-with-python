@@ -29,10 +29,7 @@ class Blockchain:
             block = chain[i]
             last_block = chain[i-1]
             Block.is_valid_block(last_block, block)
-
-
-
-
+ 
     def replace_chain(self, chain):
         """
         Replace the local chain with the incoming one if the following applies:
