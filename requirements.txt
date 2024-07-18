@@ -1,3 +1,2 @@
 pytest == 7.4.4
-Python == 3.7.0
 Flask == 2.2.5
