@@ -2,6 +2,8 @@
 ```
 python -m venv .env
 
+.env\Scripts\activate
+
 ```
 here .env is folder name
 
