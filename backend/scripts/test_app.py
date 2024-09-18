@@ -35,5 +35,5 @@ time.sleep(1)
 mined_block = get_blockchain_mine()
 print(f'\nmined_block: {mined_block}')
 
-# wallet_info = get_wallet_info()
-# print(f'\nwallet_info: {wallet_info}')
+wallet_info = get_wallet_info()
+print(f'\nwallet_info: {wallet_info}')
