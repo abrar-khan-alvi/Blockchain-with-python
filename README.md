@@ -37,3 +37,11 @@ Make sure to activate the virtual environment.
 set PEER=True
 python -m backend.app
 ```
+
+**Run the frontend**
+
+In the frontend directory:
+
+```
+npm run start
+```
