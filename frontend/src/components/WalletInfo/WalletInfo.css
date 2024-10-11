@@ -1,0 +1,46 @@
+/* WalletInfo.css */
+
+/* Container for the wallet info */
+.wallet-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.wallet-info-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Paragraph styles */
+.wallet-info-container p {
+    font-size: 1.2rem;
+    margin: 8px 0;
+    color: #555;
+}
+
+/* Labels (strong tag) */
+.wallet-info-container strong {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Loading and error messages */
+.loading-message, .error-message {
+    font-size: 1.2rem;
+    color: #888;
+}
+
+/* Error message specific styling */
+.error-message {
+    color: red;
+}

@@ -1,0 +1,41 @@
+.Block {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Block div {
+    margin-bottom: 10px;
+  }
+  
+  .Block .hash {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .Block .timestamp {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .Block button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Block button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Block button:focus {
+    outline: none;
+  }
+  

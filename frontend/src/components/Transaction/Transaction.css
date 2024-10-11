@@ -1,0 +1,12 @@
+.Transaction {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eef;
+    border-radius: 5px;
+  }
+  
+  .Transaction hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+  }
