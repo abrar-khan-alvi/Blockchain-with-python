@@ -56,6 +56,8 @@ python -m backend.app
 ```
 ***
 
+![Frontend](images/Screenshot%202024-10-11%20182722.png)
+
 **How the Application Works:**
 
 1. Create a Wallet: Generate a new wallet with a public/private key pair.
