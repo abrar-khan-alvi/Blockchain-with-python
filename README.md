@@ -54,8 +54,11 @@ Make sure to activate the virtual environment.
 set SEED_DATA=True
 python -m backend.app
 ```
-How the Application Works:
-Create a Wallet: Generate a new wallet with a public/private key pair.
-Submit Transactions: Using the wallet’s private key, submit transactions (e.g., send cryptocurrency to another wallet).
-Mine New Blocks: Mine a new block that validates pending transactions from the pool and appends them to the blockchain.
-Explore the Blockchain: View all blocks and their transaction history using the blockchain explorer.
+***
+
+**How the Application Works:**
+
+1. Create a Wallet: Generate a new wallet with a public/private key pair.
+2. Submit Transactions: Using the wallet’s private key, submit transactions (e.g., send cryptocurrency to another wallet).
+3. Mine New Blocks: Mine a new block that validates pending transactions from the pool and appends them to the blockchain.
+4. Explore the Blockchain: View all blocks and their transaction history using the blockchain explorer.
